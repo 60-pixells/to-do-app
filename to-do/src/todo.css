@@ -1,0 +1,43 @@
+.wrapper-div {
+    width: 700px;
+    height: 700px;
+    background-color: green;
+}
+
+.main-header {
+    height: 100px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-div {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    width: 450px;
+    height: 50px;
+    background-color: inherit;
+    border: 2px white solid;
+    font-size: 20px;
+}
+
+.form-submit {
+    width: 120px;
+    height: 56px;
+    background-color: yellow;
+    border: 2px white solid;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   #111;
+}
